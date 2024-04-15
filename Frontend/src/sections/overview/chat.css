@@ -1,0 +1,31 @@
+.chat-input {
+    position: fixed; /* Fix to the bottom of the screen */
+    bottom: 30px; /* Set bottom margin */
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Center horizontally (avoids rightward shift) */
+    width: 40%; /* Make it half the width of the parent */
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content (optional) */
+    background-color: #fff; /* Set background color (optional) */
+    padding: 10px; /* Add some padding (optional) */
+    border-radius: 10px; /* Set rounded corners */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow (optional) */
+  }
+  
+  .chat-input input {
+    flex: 1; /* Allow input to grow within available space */
+    padding: 10px; /* Add some padding (optional) */
+    border: 1px solid #ddd; /* Add a border (optional) */
+    border-radius: 5px; /* Set rounded corners for the input field */
+  }
+  
+  .chat-input button {
+    padding: 10px 20px;
+    background-color: #3f51b5; /* Set button color (optional) */
+    color: #fff; /* Set button text color (optional) */
+    border: none;
+    border-radius: 5px; /* Set rounded corners for the button */
+    cursor: pointer;
+  }
+  
