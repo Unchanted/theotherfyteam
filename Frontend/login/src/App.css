@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.login-box {
+  border: 2px solid black;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 55px;
+}
+
+.login-button {
+  margin-left: 150px;
+  size: 100px;
+}
+.chatbot {
+  width: 50vw;
+  min-height: 2050px;
+}
+.graphs {
+  width: 50vw;
+}
+
+.risk-main-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  background-color: #588157;
+}
